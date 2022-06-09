@@ -1,0 +1,16 @@
+class Student:
+  def __init__(self, name, age, track, score):
+    self.change_name = name
+    self.change_age = age
+    self.add_track = track
+    self.get_score = score
+
+  def myfunc(self):
+    print("Student name " + self.change_name)
+    print("Age is " + self.change_age)
+    print("Track is " + self.add_track)
+    print("Score is " + self.get_score)
+
+Bob = Student("Bob", "26", "FE,BE", "20.97")
+Bob = Student("Peter", "34", "UI/UX", "")
+Bob.myfunc()
